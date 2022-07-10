@@ -9,7 +9,19 @@ class Form extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'title' ,'body',
+        'nome' ,
+        'sobrenome',
+        'usuario' ,
+        'email',
+        'logradouro' ,
+        'estado',
+        'pais' ,
+        'cep',
+        'metododepagamento' ,
+        'nomedocartao',
+        'numerodocartao' ,
+        'datadeexpiracao',
+        'cvv',
     ];
 
 }
