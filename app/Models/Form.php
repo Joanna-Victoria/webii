@@ -23,5 +23,4 @@ class Form extends Model
         'datadeexpiracao',
         'cvv',
     ];
-
 }
